@@ -1,0 +1,13 @@
+# string concateantion (aka how to put string together)
+# suppose we want too crerate a string that says "subscribe to _____"
+
+
+adj = input("Adjective: ")
+verb1 = input("Varb: ")
+verb2 = input("Varb: ")
+famous_person = input("Famous person: ")
+# 81 anne of green...hp
+madlib = f"She did not think she liked miss's Rogerson {adj}, and she{verb1} very miserable, every \
+other little bag and began {verb2} off the soot, like he wor {famous_person}!"
+
+print(madlib)
